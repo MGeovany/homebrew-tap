@@ -1,25 +1,25 @@
 class Sentra < Formula
   desc "Sentra CLI"
   homepage "https://github.com/MGeovany/sentra-cli"
-  version "0.1.10"
+  version "0.1.11"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.10/sentra_darwin_arm64"
-      sha256 "d6e309463caaf07214e4bff300b66a89b8e7d62e59194e5e79316f3ee9d5c67a"
+      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.11/sentra_darwin_arm64"
+      sha256 "0319d0bbba299d0f0aa15d9dce0bbc0cbeb689b19d5eea5635c12c98b95dd830"
     else
-      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.10/sentra_darwin_amd64"
-      sha256 "b05fb92ec3b2cd7b27410fd7852c3e0334857a4c260d29a21cd5171c2a1e1a7f"
+      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.11/sentra_darwin_amd64"
+      sha256 "4c0de3026e8acf8e15479c9ca084697bed385345287c0661a777629dec37c6ef"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.10/sentra_linux_arm64"
-      sha256 "daac07a905c94e95c4b98530d808b8b211db8f4ac76fd060536bbc5b57e0d93c"
+      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.11/sentra_linux_arm64"
+      sha256 "a01ef53ca384c28b9b13b4aeedc64a97989f5f1731f6484e4a093164780dbf0b"
     else
-      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.10/sentra_linux_amd64"
-      sha256 "5f190d7e494f630ac120fae95eeb6c8509a00a2225819126f5acd61d7b04fd72"
+      url "https://github.com/MGeovany/sentra-cli/releases/download/v0.1.11/sentra_linux_amd64"
+      sha256 "c6d20bd3b2755a97fd7a704f4279851bd6301f46a3c73fd8d33f968dde04c4e3"
     end
   end
 
